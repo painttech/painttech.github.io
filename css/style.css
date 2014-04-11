@@ -1,0 +1,93 @@
+body {background: #F0F0F0;}
+h1, h2, h3, h4, h5, h6, p, a {font-family: Open sans, sans-serif;}
+/* Text Styles */
+	.white {color: #FFFFFF;}
+	.black {color: #000000;}
+	.gold {color: #FFF000;}
+	.gray {color: gray;}
+	.gray2 {color: #555555;}
+	.fs12 { font-size: 12px;}
+	.fs15 {font-size: 15px;}
+	.fs16 {font-size: 16px;}
+	.fs17 {font-size: 17px;}
+	.fs18 {font-size: 18px;}
+	.fs20 {font-size: 20px;}
+	.fs22 {font-size: 22px;}
+	.fs24 {font-size: 24px;}
+	.fs36 {font-size: 36px;}
+	.fs50 {font-size: 50px;}
+	.fs60 {font-size: 60px;}
+	.bold {font-weight: bold;}
+	.centered {text-align: center;}
+/* Text Styles */
+/* Background */
+	.bgwhite {background: #FFFFFF;}
+	.bggray {background: #333333;}
+	.shadow {
+		-moz-box-shadow:    3px 3px 3px 3px #ccc;
+		-webkit-box-shadow: 3px 3px 3px 3px #ccc;
+		box-shadow:         3px 3px 3px 3px #ccc;
+	}
+	.border-rad {border-radius: 6px;}
+/* Background */
+/* Margins */
+	.mtop4 {margin-top: 4px;}
+	.mtop8 {margin-top: 8px;}
+	.mtop12 {margin-top: 12px;}
+	.mtop16 {margin-top: 16px;}
+	.mtop20 {margin-top: 20px;}
+	.mbottom4 {margin-bottom: 4px;}
+	.mbottom8 {margin-bottom: 8px;}
+	.mbottom12 {margin-bottom: 12px;}
+	.mbottom16 {margin-bottom: 16px;}
+	.mbottom24 {margin-bottom: 24px;}
+	.mleft0 { margin-left: 0px; }
+	.mleft4 {margin-left: 4px;}
+	.mleft8 {margin-left: 8px;}
+	.mleft12 {margin-left: 12px;}
+/* Margins */
+/* Padding */
+	.padding5 {padding: 5px;}
+	.padding10 {padding: 10px;}
+	.padding15 {padding: 15px;}
+/* Padding */
+
+.centered > img { margin-left: auto; margin-right: auto; display: block; }
+.centered img { margin-left: auto; margin-right: auto; display: block; }
+.borderb-2gray {border-bottom: 2px solid gray;}
+.border-1gray {border: 1px solid #555555;}
+.fixed-md { position: fixed; }
+
+.nav > li > a {color: gray; font-size: 17px;}
+
+#jtron {
+	position: relative;
+	padding-top: 60px;
+	background: #000000;
+}
+
+#jtron h1 {
+	font-size: 70px;
+	line-height: 1;
+}
+
+#jtron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.25;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 767px) { 
+	#jtron h1 {font-size: 64px;}
+	#jtron p {font-size: 19px;}
+
+@media (max-width: 600px) { 
+	#jtron h1 {font-size: 56px;}
+	body {padding-top: 15px;}
+}
+
+@media (max-width: 450px) { 
+	#jtron h1 {font-size: 40px;}
+	body {padding-top: 10px;}
+}
