@@ -81,13 +81,12 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: Open sans, sans-serif;}
 @media (max-width: 767px) { 
 	#jtron h1 {font-size: 64px;}
 	#jtron p {font-size: 19px;}
+}
 
 @media (max-width: 600px) { 
 	#jtron h1 {font-size: 56px;}
-	body {padding-top: 15px;}
 }
 
 @media (max-width: 450px) { 
 	#jtron h1 {font-size: 40px;}
-	body {padding-top: 10px;}
 }
